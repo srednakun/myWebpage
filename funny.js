@@ -1,9 +1,6 @@
 var funnyFolder = "./funny/";
 var fileExtenstion = ".jpg";
 
-
-
-
 $.ajax({
     //This will retrieve the contents of the folder if the folder is configured as 'browsable'
     url: funnyFolder,
