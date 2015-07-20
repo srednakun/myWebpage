@@ -1,27 +1,60 @@
-body {
-
-/*image from subtlepatterns.com*/
+body 
+{
+  /*image from subtlepatterns.com*/
   background-image: url("symphony.png");
 }
 
-#webTitle {
+header ul 
+{
+  font-size: 30px;
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
+header ul li 
+{
+    float: left;
+}
+
+header a:link, a:visited 
+{
+  display: block;
+  
+  font-weight: bold;
+  color: #F6ADCB;
+  /*background-color: #FCFEF5;*/
+  text-align: center;
+  padding-right: 1em;
+  padding-left: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header a:hover, a:active 
+{
+  background-color: #F0F0F0;
+}
+
+#introTitle
+{
+  font-family: 'Dancing Script', cursive;
+}
+#webTitle 
+{
+  font-family: 'Dancing Script', cursive;
+  font-weight: 300;
   font-size: 6em;
   display: block;
   margin: 0em;
   padding: 0em;
   color: #55738B;
-
 }
 
-
-#rightPics {
-
-}
-
-.profilePic {
-
-
+.profilePic 
+{
   display: block;
   width: 12em;
   height: 12em;
@@ -32,19 +65,16 @@ body {
   border-radius: 99em;
   border: 6px solid #F6ADCB;
   background-image: url("homepagePics/resumePhoto.jpg");
-
 }
 
-td ul {
-
+td ul 
+{
   padding: 0;
   list-style-type: none;
-
-
 }
 
-.aboutMePics {
-
+.aboutMePics 
+{
   display: block;
   width: 12em;
   height: 12em;
@@ -57,55 +87,135 @@ td ul {
   border: 6px solid #F6ADCB;
 }
 
-#aboutMeTable {
-
- 
-}
-
-.aboutMe {
-
+.aboutMe 
+{
+  padding-top: 2em;
   padding-left: 1em;
   padding-right: 1em;
   color: #55738B; 
 }
 
-.intro, .tech {
-
-    display: block;
-    width: 25em;
-    padding-left: 1em;
-    padding-right: 1em;
-    color: #55738B;  
+.intro h2 
+{
+  font-family: "Lucida Console";
+  font-size: 2em;
 }
 
-
-header ul {
-
-    font-size: 25px;
-    display: inline-block;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+#sig
+{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  color: #FF3D7F;
+}
+#techTitle 
+{
+  font-size: 3em;
+  font-family: 'Dancing Script', cursive;
+  color: #55738B;
+  padding-top: 1em;
+  padding-bottom: .5em;
 }
 
-header ul li {
-    float: left;
+.tech, .intro  
+{
+  display: block;
+  padding-left: 1em;
+  padding-right: 1em;
+  color: #55738B;  
+}
+.intro 
+{
+  width: 25em;
 }
 
-a:link, a:visited {
-    display: block;
-    width: 160px;
-    font-weight: bold;
-    color: #F6ADCB;
-    /*background-color: #FCFEF5;*/
-    text-align: center;
-    padding: 4px;
-    text-decoration: none;
-    text-transform: uppercase;
+.echoPics
+{
+  display: inline;
+  max-width: 100%;
+  list-style-position: center;
 }
 
-a:hover, a:active {
-   background-color: #F0F0F0;
+#echoPic1 
+{
+ padding-right: 2em;
+ height: 25em;
+}
+
+#echoPic2
+{
+  padding-left: 2em;
+  height: 25em;
+}
+
+#echoPic3 {
+
+  padding-top: 1em;
+  width: 26em;
+}
+
+.leftTable 
+{
+ width: 25em;
+ padding-top: 2em;
+ padding-right: 1em;
+
+}
+
+.rightTable
+{
+  width: 25em;
+  padding-top: 2em;
+
+}
+
+#newTopic 
+{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  font-weight: 900;
+
+}
+
+hr 
+{
+  border-style: dashed;
+  border-color: #F6ADCB;
+  border-width: 2px;
+}
+
+#funnyTitle
+{
+  color: #55738B;
+  padding-top: 1em;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4em;
+  font-weight: 900;
+}
+
+#underFunnyTitle
+{
+  color: #55738B;
+  font-size: 1em;
+
+}
+
+.memes 
+{
+  font-size: 2em;
+  color: #55738B;
+}
+
+.memeLink
+{
+  color: #F6ADCB;
+   
+   text-decoration: none;
+   font-weight: 700;
+}
+
+.memeLink:hover, .memeLink:active 
+{
+  color: #FF3D7F;
+  /*background-color: #E8E8E8;*/
 }
 
