@@ -12,19 +12,27 @@ $.ajax({
         $(data).find("a:contains(" + fileExtenstion + ")").each(function () {
 
             var filename = this.href.replace(window.location.host, "").replace("http:///", "");
-            alert(filename);
-/*
-            if (position)
+            var splitFile = filename.split("_");
+            var memeType = splitFile[0];
+
+            switch(memeType)
             {
-            	$("#leftPicsList").append($("<li><div style=\"background-image: url('" + aboutMeFolder + filename + "')\" class=\"aboutMePics\"></div></li>"));
-                position = false;            
+                case 'grumpy':
+                    $("#grumpyMeme").append($("<li><img src=\"" + funnyFolder + fileName + "\"/></li>"));
+                    break;
+                
+                case 'keanu':
+                    $("#keanuMeme").append($("<li><img src=\"" + funnyFolder + fileName + "\"/></li>"));
+                    break;
+                
+                case 'raptor':
+                    $("#raptorMeme").append($("<li><img src=\"" + funnyFolder + fileName + "\"/></li>"));
+                    break;
+                
+                case 'code':
+                    $("#codeMeme").append($("<li><img src=\"" + funnyFolder + fileName + "\"/></li>"));
+                    break;        
             }
-            else
-            {
-            	$("#rightPicsList").append($("<li><div style=\"background-image: url('" + aboutMeFolder + filename + "')\" class=\"aboutMePics\"></div></li>"));
- 				position = true;           
-            }
-*/
         });
-    },   
+    }   
 });
