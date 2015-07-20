@@ -11,26 +11,27 @@ $.ajax({
         //Lsit all png file names in the page
         $(data).find("a:contains(" + fileExtenstion + ")").each(function () {
 
-            var filename = this.href.replace(window.location.host, "").replace("http:///", "");
-            var splitFile = filename.split("_");
+            var fileName = this.href.replace(window.location.host, "").replace("http:///", "");
+            var splitFile = fileName.split("_");
             var memeType = splitFile[0];
-
+        
             switch(memeType)
             {
                 case 'grumpy':
-                    $("#grumpyMeme").append($("<li><img src=\"" + funnyFolder + fileName + "\"/></li>"));
+                    $("#grumpyMeme").append($("<li><img class='image' src=\"" + funnyFolder + fileName + "\"/></li>"));
                     break;
                 
                 case 'keanu':
-                    $("#keanuMeme").append($("<li><img src=\"" + funnyFolder + fileName + "\"/></li>"));
+                    $("#keanuMeme").append($("<li><img class='image' src=\"" + funnyFolder + fileName + "\"/></li>"));
                     break;
                 
                 case 'raptor':
-                    $("#raptorMeme").append($("<li><img src=\"" + funnyFolder + fileName + "\"/></li>"));
+                    $("#raptorMeme").append($("<li><img class='image' src=\"" + funnyFolder + fileName + "\"/></li>"));
                     break;
                 
                 case 'code':
-                    $("#codeMeme").append($("<li><img src=\"" + funnyFolder + fileName + "\"/></li>"));
+
+                    $("#codeMeme").append($("<li><img class='image' src='"+ funnyFolder + fileName + "'/></li>"));
                     break;        
             }
         });
