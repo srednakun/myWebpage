@@ -1,0 +1,171 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../font/roboto/Roboto-Regular.ttf); }
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(../font/roboto/Roboto-Bold.ttf);
+  font-weight: bold; }
+
+#introTitle {
+  font-family: 'Dancing Script', cursive; }
+
+td ul {
+  padding: 0;
+  list-style-type: none; }
+
+.aboutMePics {
+  display: block;
+  width: 12em;
+  height: 12em;
+  max-width: 100%;
+  margin: 4em auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 99em;
+  border: 6px solid #F6ADCB; }
+
+.aboutMe {
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  color: #55738B; }
+
+.intro h2 {
+  font-family: "Lucida Console";
+  font-size: 2em; }
+
+#sig {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  color: #FF3D7F; }
+
+#techTitle {
+  font-size: 3em;
+  font-family: 'Dancing Script', cursive;
+  color: #55738B;
+  padding-top: 1em;
+  padding-bottom: .5em; }
+
+.tech, .intro {
+  display: block;
+  padding-left: 1em;
+  padding-right: 1em;
+  color: #55738B; }
+
+.intro {
+  width: 25em; }
+
+.echoPics {
+  display: inline;
+  max-width: 100%;
+  list-style-position: center; }
+
+#echoPic1 {
+  padding-right: 2em;
+  height: 25em; }
+
+#echoPic2 {
+  padding-left: 2em;
+  height: 25em; }
+
+#echoPic3 {
+  padding-top: 1em;
+  width: 26em; }
+
+.leftTable {
+  width: 25em;
+  padding-top: 2em;
+  padding-right: 1em; }
+
+.rightTable {
+  width: 25em;
+  padding-top: 2em; }
+
+#newTopic {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  font-weight: 900; }
+
+hr {
+  border-style: dashed;
+  border-color: #F6ADCB;
+  border-width: 2px; }
+
+#funnyTitle {
+  color: #55738B;
+  padding-top: .5em;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4em;
+  font-weight: 900; }
+
+#underFunnyTitle {
+  color: #55738B;
+  font-size: 1em; }
+
+.memes {
+  font-size: 2em;
+  color: #55738B;
+  padding-top: 1em; }
+
+.memeLink {
+  color: #F6ADCB;
+  text-decoration: none;
+  font-weight: 700; }
+
+.memeLink:hover, .memeLink:active {
+  color: #FF3D7F;
+  /*background-color: #E8E8E8;*/ }
+
+.image {
+  height: 10em;
+  display: inline;
+  text-align: left; }
+
+.memePics li {
+  display: inline;
+  padding-right: .5em;
+  padding-bottom: .5em; }
+
+body {
+  /*image from subtlepatterns.com*/
+  background-image: url("../img/background-pic/symphony.png"); }
+
+.webTitle {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 300;
+  font-size: 3em;
+  display: block;
+  margin: 0em;
+  padding: 0em;
+  color: #55738B;
+  display: inline-block; }
+
+.home-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-start; }
+
+.home-nav-a {
+  text-decoration: none;
+  font-family: Roboto-Regular;
+  color: #55738B; }
+
+.home-nav ul li {
+  display: inline-block;
+  padding-right: 1em; }
+
+.profilePic {
+  display: block;
+  width: 12em;
+  height: 12em;
+  margin: 1em auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 99em;
+  border: 6px solid #F6ADCB; }

@@ -1,69 +1,7 @@
-body 
-{
-  /*image from subtlepatterns.com*/
-  background-image: url("symphony.png");
-}
-
-header ul 
-{
-  font-size: 30px;
-  display: inline-block;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-header ul li 
-{
-    float: left;
-}
-
-header a:link, a:visited 
-{
-  display: block;
-  
-  font-weight: bold;
-  color: #F6ADCB;
-  text-align: center;
-  padding-right: 1em;
-  padding-left: 1em;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-header a:hover, a:active 
-{
-  background-color: #F0F0F0;
-}
 
 #introTitle
 {
   font-family: 'Dancing Script', cursive;
-}
-#webTitle 
-{
-  font-family: 'Dancing Script', cursive;
-  font-weight: 300;
-  font-size: 6em;
-  display: block;
-  margin: 0em;
-  padding: 0em;
-  color: #55738B;
-}
-
-.profilePic 
-{
-  display: block;
-  width: 12em;
-  height: 12em;
-  margin: 1em auto;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  border-radius: 99em;
-  border: 6px solid #F6ADCB;
-  background-image: url("homepagePics/resumePhoto.jpg");
 }
 
 td ul 
