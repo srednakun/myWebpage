@@ -3,25 +3,35 @@
 .webTitle {
   font-family: 'Dancing Script', cursive;
   font-weight: 300;
-  font-size: 3em;
+  font-size: $extra-lg-font;
   display: block;
-  margin: 0em;
   padding: 0em;
   color: $primary-font-color;
   display: inline-block;
+  margin-top: 0;
+  margin-left: .5em;
+  vertical-align: middle;
 }
 .home-header {
-	display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: flex-start;
-    align-items: flex-start;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  align-items: flex-start;
+  background-image: url("../img/background-pic/symphony.png");
+  height: 8em;
+
+}
+.home-nav {
+ vertical-align: middle;
+
 }
 .home-nav-a {
 	 text-decoration: none;
 	 font-family: Roboto-Regular;
 	 color: $primary-font-color;
+   font-size: $sm-med-font;
 }
 .home-nav ul li {
 	display: inline-block;

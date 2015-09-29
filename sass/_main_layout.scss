@@ -1,5 +1,15 @@
 body 
 {
   /*image from subtlepatterns.com*/
-  background-image: url("../img/background-pic/symphony.png");
+  //background-image: url("../img/background-pic/symphony.png");
+  background-color: $back-color;
+}
+
+%flexbox-right-column {
+	display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-end;
 }
