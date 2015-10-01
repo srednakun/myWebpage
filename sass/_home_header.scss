@@ -5,23 +5,14 @@
   font-weight: 300;
   font-size: $extra-lg-font;
   display: block;
-  padding: 0em;
+  padding: 0;
   color: $primary-font-color;
   display: inline-block;
-  margin-top: 0;
-  margin-left: .5em;
+  margin-left: .2em;
   vertical-align: middle;
 }
 .home-header {
-  display:flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-content: flex-start;
-  align-items: flex-start;
-  background-image: url("../img/background-pic/symphony.png");
-  height: 8em;
-
+  @extend %main-nav-flex; 
 }
 .home-nav {
  vertical-align: middle;
@@ -32,6 +23,9 @@
 	 font-family: Roboto-Regular;
 	 color: $primary-font-color;
    font-size: $sm-med-font;
+}
+.home-nav-a:hover {
+  color: #333333;
 }
 .home-nav ul li {
 	display: inline-block;

@@ -1,0 +1,11 @@
+ //re-usable styling for the nav bars
+ %main-nav-flex {
+	display:flex;
+	flex-direction: row;
+	lex-wrap: nowrap;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	background-image: url("../img/background-pic/symphony.png");
+	height: 8em;
+ }

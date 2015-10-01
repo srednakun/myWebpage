@@ -1,4 +1,4 @@
-var funnyFolder = "./funny/";
+var funnyFolder = "../img/funny/";
 var fileExtenstion = ".jpg";
 
 $.ajax({
