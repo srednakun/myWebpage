@@ -494,9 +494,9 @@ body {
 .home {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-content: flex-start;
+  align-content: center;
   align-items: flex-start;
   margin-top: 1em; }
 
@@ -561,6 +561,23 @@ body {
 .twitter-user-div, .twitter-div {
   width: 20em; }
 
+.home-middle {
+  width: 30em;
+  color: #C5C9C3;
+  font-family: Roboto-Regular; }
+
+.h1-header-a {
+  text-decoration: none;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 300;
+  font-size: 1.5em;
+  text-align: center;
+  color: #C5C9C3;
+  margin-top: 2em; }
+
+.h1-header-a:hover {
+  color: black; }
+
 .about-me-section {
   color: #C5C9C3;
   display: flex;
@@ -591,8 +608,47 @@ body {
 
 .about-me-section p {
   padding-top: 1em;
-  width: 40em; }
+  width: 40em;
+  font-family: Roboto-Regular; }
 
-.about-me-header {
-  font-size: 1.5em;
-  margin-right: 2.3em; }
+.h1-header {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 300;
+  font-size: 2em;
+  margin-right: 2.3em;
+  text-align: center;
+  color: #C5C9C3;
+  margin-top: 2em; }
+
+.portfolio-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-family: Roboto-Regular;
+  color: #C5C9C3; }
+
+.portfolio-pic {
+  max-width: 100%; }
+
+.portfolio-figure {
+  width: 60em;
+  height: 35em;
+  margin-top: 1em;
+  margin-bottom: 5em; }
+
+.portfolio-small-figure {
+  height: 23em; }
+
+.portfolio-figcaption {
+  margin-top: 1em;
+  color: white; }
+
+.portfolio-figcaption a {
+  text-decoration: none;
+  color: #C5C9C3; }
+
+.portfolio-figcaption a:hover {
+  color: black; }

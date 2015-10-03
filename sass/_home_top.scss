@@ -1,9 +1,9 @@
 .home {
-	 display:flex;
+	display:flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-content: flex-start;
+    align-content: center;
     align-items: flex-start;
     margin-top: 1em;
 }
@@ -72,4 +72,21 @@
 .twitter-user-div, .twitter-div {
 	width: 20em;
 }
+.home-middle {
+	width: 30em;
+	color: $primary-font-color;
+	font-family: Roboto-Regular;
+}
+.h1-header-a {
+	text-decoration: none;
+	font-family: 'Dancing Script', cursive;
+  	font-weight: 300;
+ 	font-size: $sm-med-font;
+	text-align: center;
+	color: $primary-font-color;
+	margin-top: 2em;
 
+}
+.h1-header-a:hover {
+	color: black;
+}

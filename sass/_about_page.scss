@@ -30,9 +30,15 @@
 .about-me-section p {
 	padding-top: 1em;
 	width: 40em;
+	font-family: Roboto-Regular;
 
 }
-.about-me-header {
-	font-size: $sm-med-font;
+.h1-header {
+	font-family: 'Dancing Script', cursive;
+  	font-weight: 300;
+ 	font-size: $med-font;
 	margin-right: 2.3em;
+	text-align: center;
+	color: $primary-font-color;
+	margin-top: 2em;
 }
