@@ -1,4 +1,4 @@
-var funnyFolder = "../img/funny/";
+var funnyFolder = "../img/funny-pic/";
 var fileExtenstion = ".jpg";
 
 $.ajax({
@@ -28,7 +28,7 @@ $.ajax({
                 
                 case 'code':
 
-                    $("#codeMeme").append($("<li><img class='image' src='"+ funnyFolder + fileName + "'/></li>"));
+                    $("#codeMeme").append($("<li><img class='image' src=\"" + funnyFolder + fileName + "\'/></li>"));
                     break;        
             }
         });

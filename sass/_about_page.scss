@@ -1,0 +1,44 @@
+.about-me-section  {
+	color: $primary-font-color;
+	display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+.seahawk-pic {
+	max-width: 100%;
+	background:url("../img/about-pic/a.jpg") no-repeat;
+	display: block;
+	width: 15em;
+	height: 15em;
+	margin: 1em auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-border-radius: 99em;
+	-moz-border-radius: 99em;
+	border-radius: 99em;
+	border: 5px solid #C5C9C3;
+	box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3); 
+	margin-right: 3em;
+	margin-top: 0;
+}
+.about-me-section p {
+	padding-top: 1em;
+	width: 40em;
+	font-family: Roboto-Regular;
+
+}
+.h1-header {
+	font-family: 'Dancing Script', cursive;
+  	font-weight: 300;
+ 	font-size: $med-font;
+	margin-right: 2.3em;
+	text-align: center;
+	color: $primary-font-color;
+	margin-top: 2em;
+}

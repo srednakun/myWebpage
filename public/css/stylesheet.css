@@ -378,113 +378,116 @@ th {
   src: url(../font/roboto/Roboto-Bold.ttf);
   font-weight: bold; }
 
-td ul {
-  padding: 0;
-  list-style-type: none; }
-
-.aboutMePics {
-  display: block;
-  width: 12em;
-  height: 12em;
-  max-width: 100%;
-  margin: 4em auto;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  border-radius: 99em;
-  border: 6px solid #F6ADCB; }
-
-.aboutMe {
-  padding-top: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
-  color: #55738B; }
-
-#techTitle {
-  font-size: 3em;
-  font-family: 'Dancing Script', cursive;
-  color: #55738B;
-  padding-top: 1em;
-  padding-bottom: .5em; }
-
-.tech {
-  color: #C5C9C3;
-  width: 15em; }
-
-.echoPics {
-  display: inline;
-  max-width: 100%;
-  list-style-position: center; }
-
-#echoPic1 {
-  padding-right: 2em;
-  height: 25em; }
-
-#echoPic2 {
-  padding-left: 2em;
-  height: 25em; }
-
-#echoPic3 {
-  padding-top: 1em;
-  width: 26em; }
-
-.leftTable {
-  width: 25em;
-  padding-top: 2em;
-  padding-right: 1em; }
-
-.rightTable {
-  width: 25em;
-  padding-top: 2em; }
-
-#newTopic {
+/*
+#newTopic 
+{
   font-family: 'Dancing Script', cursive;
   font-size: 2em;
-  font-weight: 900; }
+  font-weight: 900;
 
-hr {
+}
+
+hr 
+{
   border-style: dashed;
   border-color: #F6ADCB;
-  border-width: 2px; }
+  border-width: 2px;
+}
 
-#funnyTitle {
+#funnyTitle
+{
   color: #55738B;
   padding-top: .5em;
   font-family: 'Dancing Script', cursive;
   font-size: 4em;
-  font-weight: 900; }
+  font-weight: 900;
+}
 
-#underFunnyTitle {
+#underFunnyTitle
+{
   color: #55738B;
-  font-size: 1em; }
+  font-size: 1em;
 
-.memes {
+}
+
+.memes 
+{
   font-size: 2em;
   color: #55738B;
-  padding-top: 1em; }
+  padding-top: 1em;
 
-.memeLink {
+}
+
+.memeLink
+{
   color: #F6ADCB;
-  text-decoration: none;
-  font-weight: 700; }
-
-.memeLink:hover, .memeLink:active {
+   text-decoration: none;
+   font-weight: 700;
+}
+*/
+/*
+.memeLink:hover, .memeLink:active 
+{
   color: #FF3D7F;
-  /*background-color: #E8E8E8;*/ }
 
-.image {
+}
+background-color: #E8E8E8;
+*/
+/*
+.image
+{
   height: 10em;
   display: inline;
-  text-align: left; }
+  text-align: left;
 
-.memePics li {
-  display: inline;
-  padding-right: .5em;
-  padding-bottom: .5em; }
+}
 
+.memePics li 
+{
+ display: inline;
+ padding-right: .5em;
+ padding-bottom: .5em;
+}
+
+*/
 body {
   /*image from subtlepatterns.com*/
   background-color: #397579; }
+
+.icon-footer ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-end;
+  background-image: url("../img/background-pic/symphony.png");
+  margin-top: 7em;
+  height: 3em; }
+
+.icon-footer ul li {
+  display: inline-block;
+  margin-right: 1.5em; }
+
+.icon-footer ul li a img {
+  display: inline-block;
+  width: 2em;
+  height: 2em; }
+
+.icon-footer ul li a:hover {
+  width: 5em;
+  height: 5em; }
+
+.home-header {
+  display: flex;
+  flex-direction: row;
+  lex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  background-image: url("../img/background-pic/symphony.png");
+  height: 6em;
+  margin-bottom: 4em; }
 
 .webTitle {
   font-family: 'Dancing Script', cursive;
@@ -516,9 +519,9 @@ body {
 .home {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-content: flex-start;
+  align-content: center;
   align-items: flex-start;
   margin-top: 1em; }
 
@@ -582,3 +585,99 @@ body {
 
 .twitter-user-div, .twitter-div {
   width: 20em; }
+
+.home-middle {
+  width: 30em;
+  color: #C5C9C3;
+  font-family: Roboto-Regular; }
+
+.h1-header-a {
+  text-decoration: none;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 300;
+  font-size: 1.5em;
+  text-align: center;
+  color: #C5C9C3;
+  margin-top: 2em; }
+
+.h1-header-a:hover {
+  color: black; }
+
+.about-me-section {
+  color: #C5C9C3;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: center;
+  margin-top: 1.5em; }
+
+.seahawk-pic {
+  max-width: 100%;
+  background: url("../img/about-pic/a.jpg") no-repeat;
+  display: block;
+  width: 15em;
+  height: 15em;
+  margin: 1em auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  border: 5px solid #C5C9C3;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+  margin-right: 3em;
+  margin-top: 0; }
+
+.about-me-section p {
+  padding-top: 1em;
+  width: 40em;
+  font-family: Roboto-Regular; }
+
+.h1-header {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 300;
+  font-size: 2em;
+  margin-right: 2.3em;
+  text-align: center;
+  color: #C5C9C3;
+  margin-top: 2em; }
+
+.portfolio-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-family: Roboto-Regular;
+  color: #C5C9C3; }
+
+.portfolio-pic {
+  max-width: 100%; }
+
+.portfolio-figure {
+  width: 60em;
+  height: 35em;
+  margin-top: 1em;
+  margin-bottom: 5em; }
+
+.portfolio-small-figure {
+  height: 23em; }
+
+.portfolio-figcaption {
+  margin-top: 1em;
+  color: white; }
+
+.portfolio-figcaption a {
+  text-decoration: none;
+  color: #C5C9C3; }
+
+.portfolio-figcaption a:hover {
+  color: black; }
+
+.blog-frame {
+  width: 100%;
+  height: 100%; }
