@@ -474,10 +474,6 @@ body {
   width: 2em;
   height: 2em; }
 
-.icon-footer ul li a:hover {
-  width: 5em;
-  height: 5em; }
-
 .home-header {
   display: flex;
   flex-direction: row;
@@ -486,8 +482,7 @@ body {
   align-content: center;
   align-items: center;
   background-image: url("../img/background-pic/symphony.png");
-  height: 6em;
-  margin-bottom: 4em; }
+  height: 6em; }
 
 .webTitle {
   font-family: 'Dancing Script', cursive;
