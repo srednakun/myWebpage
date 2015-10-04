@@ -13,3 +13,30 @@ body
     align-content: flex-start;
     align-items: flex-end;
 }
+.icon-footer ul {
+	display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-end;
+    background-image: url("../img/background-pic/symphony.png");
+    margin-top: 7em;
+    height: 3em;
+}
+.icon-footer ul li {
+	display: inline-block;
+	margin-right: 1.5em;
+
+
+}
+
+.icon-footer ul li a img {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+}
+.icon-footer ul li a:hover {
+	width: 5em;
+	height: 5em;
+}
