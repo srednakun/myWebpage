@@ -497,16 +497,6 @@ body {
   margin-left: .2em;
   vertical-align: middle; }
 
-.home-header {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
-  background-image: url("../img/background-pic/symphony.png");
-  height: 8em; }
-
 .home-nav {
   vertical-align: middle; }
 
