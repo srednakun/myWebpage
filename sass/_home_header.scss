@@ -20,7 +20,6 @@
 }
 .home-nav-a {
 	 text-decoration: none;
-	 //font-family: Roboto-Regular;
    font-family: 'Dancing Script', cursive;
 	 color: $primary-font-color;
    font-size: $med-font;
@@ -28,6 +27,7 @@
 .home-nav-a:hover {
   color: $dark-color;
 }
+
 .home-nav ul li {
 	display: inline-block;
 	padding-right: 1em;
