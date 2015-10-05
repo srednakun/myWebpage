@@ -8,20 +8,19 @@
     align-items: center;
     margin-top: 1.5em;
 }
-
-.seahawk-pic {
+.rectangle-collage {
 	max-width: 100%;
-	background:url("../img/about-pic/a.jpg") no-repeat;
+	background: url("../img/about-pic/Collage.jpg") no-repeat;
 	display: block;
-	width: 15em;
-	height: 15em;
+	width: 45em;
+	height: 25em;
 	margin: 1em auto;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
-	-webkit-border-radius: 99em;
-	-moz-border-radius: 99em;
-	border-radius: 99em;
+	//-webkit-border-radius: 99em;
+	//-moz-border-radius: 99em;
+	//border-radius: 99em;
 	border: 5px solid #C5C9C3;
 	box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3); 
 	margin-right: 3em;
@@ -41,4 +40,10 @@
 	text-align: center;
 	color: $primary-font-color;
 	margin-top: 2em;
+}
+.about-me-header {
+	margin-top: 0;
+}
+.where-from {
+	margin-top: 1em;
 }

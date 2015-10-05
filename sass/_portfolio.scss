@@ -15,8 +15,8 @@
 .portfolio-figure {
 	width: 60em;
 	height: 35em;
-	margin-top: 1em;
-	margin-bottom: 5em;
+	margin-bottom: 10em;
+	
 }
 .portfolio-small-figure {
 	height:23em;
@@ -31,8 +31,13 @@
 	
 }
 .portfolio-figcaption a:hover {
-		color: black;
+		color: $dark-color;
 
+	}
+
+	.port-font {
+		margin: 1em;
+		font-size: $large-font;
 	}
 
 
