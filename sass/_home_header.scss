@@ -1,0 +1,36 @@
+//home header section includes the Like a stone title and navigation bar
+
+.webTitle {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 300;
+  font-size: $extra-lg-font;
+  display: block;
+  padding: 0;
+  color: $dark-color;
+  display: inline-block;
+  margin-left: .2em;
+  vertical-align: middle;
+}
+.home-header {
+  @extend %main-nav-flex; 
+}
+.home-nav {
+ vertical-align: middle;
+
+}
+.home-nav-a {
+	 text-decoration: none;
+	 //font-family: Roboto-Regular;
+   font-family: 'Dancing Script', cursive;
+	 color: $primary-font-color;
+   font-size: $med-font;
+}
+.home-nav-a:hover {
+  color: $dark-color;
+}
+.home-nav ul li {
+	display: inline-block;
+	padding-right: 1em;
+}
+
+

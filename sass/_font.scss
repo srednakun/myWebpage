@@ -1,0 +1,26 @@
+//All fonts used for the website
+
+//Roboto 
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../font/roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../font/roboto/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+//'Dancing Script'
+$decor-font: 'Dancing Script';
+$primary-font: Roboto-Regular;
+$secondary-font: 'Lucida Console';
+
+//font sizes
+$extra-lg-font: 4em;
+$large-font: 3em;
+$med-lg-font: 2.5em;
+$med-font: 2em;
+$sm-med-font: 1.5em;
+$small-font: 1em;
+$tiny-font: .75em;

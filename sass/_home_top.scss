@@ -1,0 +1,134 @@
+.home {
+	 display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+.profilePic {
+	//background: url("img/home-pic/resumePhoto.jpg") no-repeat;
+	background: url("../img/home-pic/resume-pic3.jpg") no-repeat;
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin: 1em auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-border-radius: 99em;
+	-moz-border-radius: 99em;
+	border-radius: 99em;
+	border: 5px solid #C5C9C3;
+	box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3); 
+	margin-right: 3em;
+	margin-top: 0;
+
+}
+.profile-section {
+	display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-end;
+}
+.intro {
+  color: $primary-font-color;
+  width: 12em;
+  text-align: left;
+  margin-right: 1em; 
+}
+#introTitle
+{
+  font-family: $decor-font, cursive;
+  font-size: $sm-med-font;
+}
+.intro h2 
+{
+  font-family: $primary-font;
+  font-size: $small-font;
+}
+.intro p {
+	font-size: $tiny-font;
+	margin-top: 1em;
+}
+.intro-enjoy {
+	text-align: center;
+	margin-bottom: 1em;
+	margin-right: 2.25em;
+}
+.home-star-pic {
+	width: 10em;
+	height: 10em;
+}
+#sig
+{
+  font-family: $decor-font, cursive;
+  font-size: $sm-med-font;
+  text-align: center;
+  margin-right: 1.25em;
+}
+.twitter-user-div, .twitter-div {
+	width: 20em;
+}
+.home-middle {
+	width: 30em;
+	color: $primary-font-color;
+	font-family: Roboto-Regular;
+}
+.h1-header-a {
+	text-decoration: none;
+	font-family: 'Dancing Script', cursive;
+  	font-weight: 300;
+ 	font-size: $sm-med-font;
+	text-align: center;
+	color: $primary-font-color;
+	margin-top: 2em;
+
+}
+.h1-header-a:hover {
+	color: $dark-color;
+}
+.homepage-collage {
+	max-width: 100%;
+	background: url("../img/home-pic/pumpkin.jpg") no-repeat;
+	display: block;
+	width: 50em;
+	height: 15em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	border: 5px solid #C5C9C3;
+	box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3); 
+}
+.homepage-collage-section {
+	
+	margin-bottom: 1em;
+	width: 100%;
+	 display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: flex-start;
+}
+
+.home-info {
+	 display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+.home-widget {
+	display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}

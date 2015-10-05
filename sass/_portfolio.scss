@@ -1,0 +1,43 @@
+.portfolio-section {
+	display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: Roboto-Regular;
+    color: $primary-font-color;
+}
+.portfolio-pic {
+	max-width: 100%;
+
+}
+.portfolio-figure {
+	width: 60em;
+	height: 35em;
+	margin-bottom: 10em;
+	
+}
+.portfolio-small-figure {
+	height:23em;
+}
+.portfolio-figcaption {
+	margin-top: 1em;
+	 color: white;
+}
+.portfolio-figcaption a {
+	text-decoration: none;
+	color: $primary-font-color;
+	
+}
+.portfolio-figcaption a:hover {
+		color: $dark-color;
+
+	}
+
+	.port-font {
+		margin: 1em;
+		font-size: $large-font;
+	}
+
+
