@@ -1,4 +1,5 @@
 .home {
+
 	 display:flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -8,7 +9,6 @@
     margin-top: 1em;
 }
 .profilePic {
-	//background: url("img/home-pic/resumePhoto.jpg") no-repeat;
 	background: url("../img/home-pic/resume-pic3.jpg") no-repeat;
 	display: block;
 	width: 150px;
@@ -89,6 +89,7 @@
 
 }
 .h1-header-a:hover {
+<<<<<<< HEAD
 	color: $dark-color;
 }
 .homepage-collage {
@@ -132,3 +133,7 @@
     align-content: center;
     align-items: center;
 }
+=======
+	color: black;
+}
+>>>>>>> 7369a5b31a5a78d797edbb19bd59efcaeddb9c12

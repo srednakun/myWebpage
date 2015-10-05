@@ -474,6 +474,13 @@ body {
   width: 2em;
   height: 2em; }
 
+<<<<<<< HEAD
+=======
+.icon-footer ul li a:hover {
+  width: 5em;
+  height: 5em; }
+
+>>>>>>> 7369a5b31a5a78d797edbb19bd59efcaeddb9c12
 .home-header {
   display: flex;
   flex-direction: row;
@@ -482,7 +489,12 @@ body {
   align-content: center;
   align-items: center;
   background-image: url("../img/background-pic/symphony.png");
+<<<<<<< HEAD
   height: 6em; }
+=======
+  height: 6em;
+  margin-bottom: 4em; }
+>>>>>>> 7369a5b31a5a78d797edbb19bd59efcaeddb9c12
 
 .webTitle {
   font-family: 'Dancing Script', cursive;
@@ -490,7 +502,11 @@ body {
   font-size: 4em;
   display: block;
   padding: 0;
+<<<<<<< HEAD
   color: #42282C;
+=======
+  color: #C5C9C3;
+>>>>>>> 7369a5b31a5a78d797edbb19bd59efcaeddb9c12
   display: inline-block;
   margin-left: .2em;
   vertical-align: middle; }
@@ -500,12 +516,21 @@ body {
 
 .home-nav-a {
   text-decoration: none;
+<<<<<<< HEAD
   font-family: 'Dancing Script', cursive;
   color: #C5C9C3;
   font-size: 2em; }
 
 .home-nav-a:hover {
   color: #42282C; }
+=======
+  font-family: Roboto-Regular;
+  color: #C5C9C3;
+  font-size: 1.5em; }
+
+.home-nav-a:hover {
+  color: #333333; }
+>>>>>>> 7369a5b31a5a78d797edbb19bd59efcaeddb9c12
 
 .home-nav ul li {
   display: inline-block;
@@ -513,6 +538,7 @@ body {
 
 .home {
   display: flex;
+<<<<<<< HEAD
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -522,6 +548,17 @@ body {
 
 .profilePic {
   background: url("../img/home-pic/resume-pic3.jpg") no-repeat;
+=======
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: flex-start;
+  margin-top: 1em; }
+
+.profilePic {
+  background: url(../img/home-pic/resumePhoto.jpg) no-repeat;
+>>>>>>> 7369a5b31a5a78d797edbb19bd59efcaeddb9c12
   display: block;
   width: 150px;
   height: 150px;
@@ -596,6 +633,7 @@ body {
   margin-top: 2em; }
 
 .h1-header-a:hover {
+<<<<<<< HEAD
   color: #42282C; }
 
 .homepage-collage {
@@ -636,6 +674,9 @@ body {
   justify-content: center;
   align-content: center;
   align-items: center; }
+=======
+  color: black; }
+>>>>>>> 7369a5b31a5a78d797edbb19bd59efcaeddb9c12
 
 .about-me-section {
   color: #C5C9C3;
@@ -647,16 +688,31 @@ body {
   align-items: center;
   margin-top: 1.5em; }
 
+<<<<<<< HEAD
 .rectangle-collage {
   max-width: 100%;
   background: url("../img/about-pic/Collage.jpg") no-repeat;
   display: block;
   width: 45em;
   height: 25em;
+=======
+.seahawk-pic {
+  max-width: 100%;
+  background: url("../img/about-pic/a.jpg") no-repeat;
+  display: block;
+  width: 15em;
+  height: 15em;
+>>>>>>> 7369a5b31a5a78d797edbb19bd59efcaeddb9c12
   margin: 1em auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+<<<<<<< HEAD
+=======
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+>>>>>>> 7369a5b31a5a78d797edbb19bd59efcaeddb9c12
   border: 5px solid #C5C9C3;
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
   margin-right: 3em;
@@ -676,12 +732,15 @@ body {
   color: #C5C9C3;
   margin-top: 2em; }
 
+<<<<<<< HEAD
 .about-me-header {
   margin-top: 0; }
 
 .where-from {
   margin-top: 1em; }
 
+=======
+>>>>>>> 7369a5b31a5a78d797edbb19bd59efcaeddb9c12
 .portfolio-section {
   display: flex;
   flex-direction: row;
@@ -698,7 +757,12 @@ body {
 .portfolio-figure {
   width: 60em;
   height: 35em;
+<<<<<<< HEAD
   margin-bottom: 10em; }
+=======
+  margin-top: 1em;
+  margin-bottom: 5em; }
+>>>>>>> 7369a5b31a5a78d797edbb19bd59efcaeddb9c12
 
 .portfolio-small-figure {
   height: 23em; }
@@ -712,11 +776,15 @@ body {
   color: #C5C9C3; }
 
 .portfolio-figcaption a:hover {
+<<<<<<< HEAD
   color: #42282C; }
 
 .port-font {
   margin: 1em;
   font-size: 3em; }
+=======
+  color: black; }
+>>>>>>> 7369a5b31a5a78d797edbb19bd59efcaeddb9c12
 
 .blog-frame {
   width: 100%;
