@@ -647,14 +647,7 @@ body {
   align-items: center;
   margin-top: 1.5em; }
 
-.rectangle-collage {
-  max-width: 100%;
-  background: url("../img/about-pic/Collage.jpg") no-repeat;
-  display: block;
-  width: 45em;
-  height: 25em; }
-
-.seahawk-pic {
+.about-collage {
   max-width: 100%;
   background: url("../img/about-pic/Collage.jpg") no-repeat;
   display: block;
