@@ -8,16 +8,7 @@
     align-items: center;
     margin-top: 1.5em;
 }
-
 .rectangle-collage {
-	max-width: 100%;
-	background: url("../img/about-pic/Collage.jpg") no-repeat;
-	display: block;
-	width: 45em;
-	height: 25em;
-}
-
-.seahawk-pic {
 	max-width: 100%;
 	background: url("../img/about-pic/Collage.jpg") no-repeat;
 	display: block;
@@ -27,6 +18,9 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
+	//-webkit-border-radius: 99em;
+	//-moz-border-radius: 99em;
+	//border-radius: 99em;
 	border: 5px solid #C5C9C3;
 	box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3); 
 	margin-right: 3em;
