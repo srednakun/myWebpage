@@ -697,11 +697,7 @@ body {
 
 .portfolio-figure {
   width: 60em;
-  height: 35em;
-  margin-bottom: 10em; }
-
-.portfolio-small-figure {
-  height: 23em; }
+  margin-bottom: 5em; }
 
 .portfolio-figcaption {
   margin-top: 1em;
