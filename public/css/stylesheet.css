@@ -648,11 +648,9 @@ body {
   margin-top: 1.5em; }
 
 .about-collage {
-  max-width: 100%;
-  background: url("../img/about-pic/Collage.jpg") no-repeat;
-  display: block;
-  width: 45em;
-  height: 25em;
+  background: url("../img/about-pic/nov2-collage.jpg") no-repeat;
+  width: 49em;
+  height: 18em;
   margin: 1em auto;
   background-size: cover;
   background-repeat: no-repeat;
