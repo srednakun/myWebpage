@@ -700,6 +700,8 @@ body {
 .portfolio-figcaption {
   margin-top: 1em;
   color: white; }
+  .portfolio-figcaption span {
+    font-size: 1.5em; }
 
 .portfolio-figcaption a {
   text-decoration: none;
@@ -711,6 +713,9 @@ body {
 .port-font {
   margin: 1em;
   font-size: 3em; }
+
+.img-comp {
+  width: 60%; }
 
 .blog-frame {
   width: 100%;

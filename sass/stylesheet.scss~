@@ -4,4 +4,3 @@
 @import "base/INDEX";
 @import "layout/INDEX";
 @import "components/INDEX";
-@import "fonts/INDEX";
